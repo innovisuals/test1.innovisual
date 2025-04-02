@@ -20,8 +20,7 @@
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import React, { useEffect, useRef } from "react";
 import Navigation from "@/components/Navigation";
 import Logo from "@/components/Logo";
